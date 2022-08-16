@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+
+  <!-- CSS Files Links -->
+  <link rel="stylesheet" href="stopwatch.css">
+<style>*{
+  text-transform: capitalize;
+  background-color: black;
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  margin:10% 40% 0 40%;
+  
+  
+}
+span{
+  font-weight: 3000;
+  color: aqua;
+  
+}
+span:hover{
+  font-weight: 3000;
+  color: white;
+}
+
+.watch{
+  padding: 24px;
+  width: 250px;
+  height: 100px;
+  border: 1px solid wheat;
+  text-align: center;
+  border-radius: 35px;
+}
+.buttons{
+  margin: -11px;
+  margin-top: 20px;
+  padding: 20px;
+  width: 230px;
+  /* border: 1px solid wheat; */
+  text-align: center;
+  cursor: pointer;
+}
+#start{
+
+  font-weight: 900;
+  border-radius: 15px;
+  padding: 5px;
+  background: white;
+  color: black;
+  border: 1px solid transparent;
+}
+#start:hover{
+  font-weight: 900;
+  border-radius: 15px;
+  padding: 5px;
+  background: rgb(5, 5, 5);
+  color: rgb(253, 253, 253);
+  cursor: pointer;
+  border: 1px solid white;
+}
+#stop{
+  margin-left: 10px;
+  font-weight: 900;
+  border-radius: 15px;
+  padding: 5px;
+  background: white;
+  color: black;
+  border: 1px solid transparent;
+}
+#stop:hover{
+  margin-left:10px;
+font-weight: 900;
+border-radius: 15px;
+padding: 5px;
+background: rgb(5, 5, 5);
+color: rgb(253, 253, 253);
+cursor: pointer;
+border: 1px solid white;
+}
+#reset{
+  margin-left:10px;
+  font-weight: 900;
+  border-radius: 15px;
+  padding: 5px;
+  background: white;
+  color: black;
+  border: 1px solid transparent;
+}
+#reset:hover{
+  margin-left: 10px;
+font-weight: 900;
+border-radius: 15px;
+padding: 5px;
+background: rgb(5, 5, 5);
+color: rgb(253, 253, 253);
+cursor: pointer;
+border: 1px solid white;
+}</style>
+  <!-- Title -->
+  <title>stop watch</title>
+</head>
+<body>
+  <header>
+    
+  </header>
+
+  <main>
+   <div class="container">
+    <h1>my stop watch</h1>  
+     <!-- watch positions -->
+    <div class="watch">
+      <span id="hour"> 00 </span>
+      <span> h </span>
+      <span> : </span>
+      <span id="min"> 00 </span>
+      <span> m </span>
+      <span> : </span>
+      <span id="sec"> 00 </span>     
+      <span> s </span>     
+      <span id="milsec"> 00 </span>     
+      <span> ms </span> 
+    
+      <!-- buttons position -->
+     <div class="buttons">
+      <button onclick="startfun()" id="start" >start</button>
+      <button  onclick="stopfun()" id="stop">stop</button>
+      <button  onclick="resetfun()" id="reset" >reset</button>
+    </div>   
+    </div>
+   </div>
+  </main>
+
+  <footer>
+   
+  </footer>
+
+  <noscript>Your browser don't support JavaScript!</noscript>
+  <script>
+    var hr = 0;
+var m = 0;
+var s = 0;
+var ms = 0;
+
+var con = false;
+
+
+function startfun() {
+    if (con = true) {
+        main();
+}
+}
+function stopfun() {
+    con = false;
+
+}
+
+function resetfun() {
+    con = false;
+
+    hr = 0;
+    m = 0;
+    s = 0;
+    ms = 0;
+
+    document.getElementById("hour").innerHTML = " 00 ";
+    document.getElementById("min").innerHTML = " 00 ";
+    document.getElementById("sec").innerHTML = " 00 ";
+    document.getElementById("milsec").innerHTML = " 00 ";
+}
+
+function main() {
+    if (con == true) {
+        if(ms == -1){
+    ms = ms + 1;}
+
+        if (ms == 100) {
+            s = s + 1;
+            ms = 0;
+        }
+        if (s == 60) {
+            m = m + 1;
+            s = 0;
+            ms = 0;
+        }
+        if (m == 60) {
+            hr = hr + 1;
+            m = 0;
+            s = 0;
+            ms = 0;
+        }
+
+    }
+    else {
+
+    }
+    document.getElementById("hour").innerHTML = hr;
+    document.getElementById("min").innerHTML = m;
+    document.getElementById("sec").innerHTML = s;
+    document.getElementById("milsec").innerHTML = ms;
+
+
+    setTimeout("main()", 10)
+}
+
+  </script>
+</body>
+</html>
