@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Fonts Pre Connect -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts Links (Roboto 400, 500 and 700 included) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+
+  <!-- CSS Files Links -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Title -->
+
+  <title>Weather api</title>
+
+<!-- style  -->
+
+  <style>
+*{
+    text-transform: capitalize;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(109, 108, 108);
+   
+}
+
+.container{
+    display: inline-block;
+    background-color: #f0ec08 ;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+    opacity: 0.6;
+    padding: 50px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    width: 400px;
+    height: 650;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.container:hover{
+    opacity: 1;
+}
+.heading{
+    color: rgb(12, 12, 12);
+    
+}
+input{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+input:focus{
+    background-color: #fff;
+    color: #000;
+    border-color: #124788;
+    outline: none;
+    box-shadow: 0px 0px 2px 2px black;
+    cursor: pointer;
+}
+input[type="button"]{
+    background-color: orangered;
+    color: #fff;
+}
+
+  </style>
+</head>
+<body>
+ 
+  <main>
+   <div class="container">
+    <div>
+        <h1 class="heading">Fetch weather</h1>
+        <br>
+        <input type="text"  id="city-input" placeholder="search city name"  >
+        <br>
+        <input type="button" onclick="searchCity()" value="search" >
+    </div>
+    <div class="result">
+        <br>
+        <h2 id="city-name">entered city</h2>
+        <br>
+        <div>
+            <h1 id="weather-type">weather condition</h1>
+            <br>
+            <div>
+                <h3>Temp : <span id="temp"></span> <span> °c </span></h3><br>
+                <h3>min temp : <span id="min-temp"> </span><span> °c </span></h3><br>
+                <h3>max temp : <span id="max-temp"> </span><span> °c </span></h3><br>
+               
+            </div>
+        </div>
+    </div>
+   </div>
+  </main>
+
+  
+  <noscript>Your browser don't support JavaScript!</noscript>
+  <script>
+    
+let api_key = "40f1e7fd0184cb8812ed6394518001a8" ;
+
+getWeatherdata = (city) =>
+{
+    const URL = `https://api.openweathermap.org/data/2.5/weather`;
+
+    const Full_URL = `${URL}?q=${city}&appid=${api_key}&units=metric`;
+
+    const weatherPromises = fetch(Full_URL);
+   
+console.log(city)
+
+    return weatherPromises.then((response)=>{
+        return response.json()
+    })
+};
+function searchCity(){
+    const city = document.getElementById(`city-input`).value;
+
+    getWeatherdata(city)
+    .then((response)=>{
+       showWeatherData(response);
+    })
+    .catch((err)=>{
+        console.log(err);
+    })
+}
+showWeatherData = (weatherdata) =>{
+    document.getElementById(`city-name`).innerHTML =weatherdata.name;
+    document.getElementById(`weather-type`).innerHTML =weatherdata.weather[0].main;
+    document.getElementById(`temp`).innerHTML = weatherdata.main.temp;
+    document.getElementById(`min-temp`).innerHTML = weatherdata.main.temp_min;
+    document.getElementById(`max-temp`).innerHTML = weatherdata.main.temp_max;
+}
+  </script>
+</body>
+</html>
