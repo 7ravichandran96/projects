@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            text-transform: capitalize;
+        }
+
+        body {
+            background: orangered;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 15%;
+            color: azure;
+            font-weight: 30px;
+            text-align: center;
+
+        }
+
+        p {
+            font-size: 38px;
+            font-weight: bold;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            border: 1px solid black;
+            padding: 30px 40px 30px 40px;
+            border-radius: 35px;
+            box-shadow: 0 0 10px 10px burlywood;
+       
+        }
+
+        .wrapper {
+            border: 2px solid gray;
+            padding: 40px;
+            border-radius: 35px;
+            background-color: orangered;
+            font-size: 28px;
+            box-shadow: 0 0 20px 20px burlywood;
+            margin-top: -10px;
+           
+        }
+        .btn{
+            display: flex;
+            justify-content: space-evenly;
+            align-items:center;
+           
+        }
+        .btn-start {
+        
+            border: 3px solid rgb(5, 0, 0);
+            padding: 10px;
+            border-radius: 10px;
+            background: rgb(245, 201, 8);
+            padding-left: 25px;
+            padding-right: 25px;
+            transition-delay: 0.3s;
+            transition-duration: 0.2s;
+            transform: translateX(15px);
+            font-size: 20px;
+
+        }
+
+        .btn-start:hover {
+            border-color: rgb(255, 255, 255);
+            box-shadow: 0px 0px 7px 7px yellow;
+            transition-delay: 0.3s;
+            transition-duration: 0.3s;
+            color: rgb(248, 248, 255);
+            transform: translateX(5px);
+            
+        }
+
+        .btn-stop {
+            border: 3px solid rgb(5, 0, 0);
+            padding: 10px;
+            border-radius: 10px;
+            background: rgb(245, 201, 8);
+            padding-left: 25px;
+            padding-right: 25px;
+            transition-delay: 0.3s;
+            transition-duration: 0.2s;
+            transform: translateX(5px);
+            font-size: 20px;
+        }
+
+        .btn-stop:hover {
+            border-color: rgb(255, 255, 255);
+            box-shadow: 0px 0px 7px 7px yellow;
+            transition-delay: 0.3s;
+            transition-duration: 0.3s;
+            color: rgb(248, 248, 255);
+            transform: translateX(15px);
+           
+        }
+
+        .btn-reset {
+            border: 3px solid rgb(5, 0, 0);
+            padding: 10px;
+            border-radius: 10px;
+            background: rgb(245, 201, 8);
+            padding-left: 25px;
+            padding-right: 25px;
+            transition-delay: 0.3s;
+            transition-duration: 0.2s;
+           
+            font-size: 20px;
+        }
+
+        .btn-reset:hover {
+            border-color: rgb(255, 255, 255);
+            box-shadow: 0px 0px 7px 7px yellow;
+            transition-delay: 0.3s;
+            transition-duration: 0.3s;
+            color: rgb(248, 248, 255);
+            transform: translateY(-10px);
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <p>
+                <span class="mins"> 00 </span> m : <span class="seconds"> 00 </span> S : <span class="tens"> 00 </span>
+                <span> ms</span>
+            </p> <br><br>
+            <div class="btn">
+            <button class="btn-start">Start</button>
+            <button class="btn-stop">Stop</button>
+            <button class="btn-reset">Reset</button>
+            
+        </div>
+        <br><br>
+        </div>
+    </div>
+
+
+    <script src="scripts.js">
+        let seconds = 00;
+        let tens = 00;
+        let mins = 00;
+        let getSeconds = document.querySelector('.seconds');
+        let getTens = document.querySelector('.tens');
+        let getMins = document.querySelector('.mins');
+        let btnStart = document.querySelector('.btn-start');
+        let btnStop = document.querySelector('.btn-stop');
+        let btnReset = document.querySelector('.btn-reset');
+        let interval;
+
+        btnStart.addEventListener('click', () => {
+            clearInterval(interval);
+            interval = setInterval(startTimer, 10);
+        })
+        btnStop.addEventListener('click', () => {
+            clearInterval(interval);
+        })
+        btnReset.addEventListener('click', () => {
+            clearInterval(interval);
+
+            tens = '00';
+            seconds = '00';
+            mins = '00';
+            getSeconds.innerHTML = seconds;
+            getTens.innerHTML = tens;
+            getMins.innerHTML = mins;
+        })
+
+        function startTimer() {
+            tens++;
+            if (tens <= 9) {
+                getTens.innerHTML = '0' + tens;
+            }
+            if (tens > 9) {
+                getTens.innerHTML = tens;
+            }
+            if (tens > 99) {
+                seconds++;
+                getSeconds.innerHTML = '0' + seconds;
+                tens = 0;
+                getTens.innerHTML = '0' + 0;
+            }
+            if (seconds > 9) {
+                getSeconds.innerHTML = seconds;
+            }
+            if (seconds > 59) {
+                mins++;
+                getMins.innerHTML = '0' + mins;
+                seconds = 0;
+                getSeconds.innerHTML = ' 0 ' + 0;
+            }
+            if (mins > 9) {
+                getSeconds.innerHTML = mins;
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
