@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Fonts Pre Connect -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts Links (Roboto 400, 500 and 700 included) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+
+    <!-- CSS Files Links -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Title -->
+    <title>To Do List</title>
+    
+    <style>
+    *{
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('https://media.istockphoto.com/photos/notepad-open-with-white-blank-page-for-writing-idea-or-todo-list-a-picture-id867672394?k=20&m=867672394&s=612x612&w=0&h=tz9H4QDinsnwRrKMUv2fpBnLzrFS4aVbWUrmzmi1pCI=');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* border: 1px solid yellow; */
+    width: 42%;
+    margin-left: 12%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+   
+   
+}
+header{
+   
+    padding: 25px 30px;
+    background-image: linear-gradient(230deg, red, yellow);
+    margin-left: 1.5%;
+    margin-top: 12%;
+    margin-bottom: 20px;
+}
+main{
+   box-shadow: inset 15px 20px 452px 40px red ;
+    
+    max-width: 80%;
+    padding: 10px 10px;
+    /* border: 1px solid black; */
+    margin-left: 8%;
+}
+#inputsContainer{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  padding: 25px 30px;
+  max-width: 90%;
+  
+}
+
+#inp{
+   
+    
+    padding: 10px 15px;
+    
+    background-color: rgb(3, 3, 3);
+    color: rgb(247, 247, 253);
+    border: none;
+    outline: none;
+}
+#inp:hover{
+    
+    background-color: aliceblue;
+    color: black;
+    transition: 0.8s;
+}
+
+#inputIcon{
+ 
+    padding: 10px ;
+   color: black;
+    background-color: rgb(250, 250, 250);
+    transition-duration: 0.5s ;
+    border: none;
+    outline: none;
+}
+#inputIcon:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.c{
+    margin-left: 10%;
+    margin-top: 2%;
+    padding: 10px;
+    cursor: pointer;
+    font-size:20px;
+    color: black;
+}
+
+
+img{
+    height: 30px;
+    width: 20px;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id="heading">To Do List</h1>
+    </header>
+
+    <main>
+        <div id="inputsContainer">
+            <div id="insert">
+                <input id="inp" type="text" size='40' ;>
+            </div>
+
+            <div id="ser">
+                <i class="fa-solid fa-plus" id="inputIcon"></i>
+            </div>
+          
+        </div>
+       <div class="c">
+        
+            <input id="rem" type="button" value="cear all">
+        
+       </div>
+        <!-- <div id="resultsContainer">
+            <div id="checked">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <div id="inputedResults">
+                <span id="inputedText"></span>
+            </div>
+            <div id="cancelResult">
+            
+            <i class="fa-solid fa-minus"></i>
+        </div>
+            
+        </div> -->
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <noscript>Your browser don't support JavaScript!</noscript>
+    <script src="./scripts.js"></script>
+
+    <!-- fontawsome scripts -->
+    <script src="https://kit.fontawesome.com/8c4c8ff5f3.js" crossorigin="anonymous"></script>
+     <script>
+     let inp = document.querySelector('#inp');
+let ser = document.querySelector('#ser');
+let output = document.querySelector('.c');
+let rem = document.querySelector('#rem')
+
+ser.addEventListener('click',()=>{
+
+    let par = document.createElement('p');
+    par.classList.add('c');
+    par.innerText = inp.value;
+    output.appendChild(par);
+    inp.value='';
+   
+    
+    par.addEventListener('click',()=>{
+        par.style.textDecoration = 'line-through';
+    })
+    par.addEventListener('dblclick',()=>{
+        par.style.textDecoration = 'none';
+    })
+  
+    rem.addEventListener('click',()=>{
+        confirm('conform remove');
+        output.removeChild(par);
+        
+    })
+
+})
+
+     </script>
+</body>
+
+</html>
