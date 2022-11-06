@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Fonts Pre Connect -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts Links (Roboto 400, 500 and 700 included) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+
+    <!-- CSS Files Links -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2991/2991148.png">
+    <!-- Title -->
+    <title>Google</title>
+    
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: whitesmoke;
+    }
+    .A{
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: #2b7de9;
+        padding: 10px 30px;
+        border-radius: 3px;
+        outline: none;
+        border: none;
+
+    }
+    .A:hover{
+        background-color: #3b8df7;
+        color: white;
+    }
+    .list,a{
+        color:rgb(49, 48, 48) ;
+    }
+    .list,ul,li,a{
+        color: rgb(49, 48, 48);
+        padding: 2px;
+        display: flex;
+        justify-content: end;
+        text-decoration: none;
+        text-align: start;
+        margin-right: 8px;
+    
+    }
+    .list a:hover{
+        text-decoration: underline;
+    }
+    .list{
+    
+        font-size:14px;
+        margin-top: 15px;
+        border-radius: 50px;
+        padding: 3px;
+        border: none;
+        color: rgba(0,0,0,0.87);
+    }
+
+    .container{
+        margin: auto;
+        width: 50%;
+        text-align: center;
+        padding: 15px;
+    }
+    input{
+    margin-top : 25px;
+    padding: 15px 50PX;
+    width: 500px;
+    border-radius: 30px;
+    border: 1px solid #CCC;
+        background: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png)
+    no-repeat, url(./IMAGES/search.svg) no-repeat;
+    background-position: right 10px center, left 20px center;
+    background-size: 25px, 20px;
+    
+    }
+    input:focus{
+        box-shadow: 1px 1px 1px 1px #ccc;
+        outline: none ;
+    }
+    .s{
+    cursor: pointer;
+    margin-top: 40px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius:8px;
+
+    
+    }
+
+    .s:hover{
+        border-radius:8px;
+       background-color: transparent;
+       border: 1px solid rgb(204, 199, 199);
+       box-shadow: inset 3px 4px 20px 10px rgb(134, 152, 233);
+    }
+    .I{
+        cursor: pointer;
+        margin-top: 40px;
+        text-align: center;
+        margin-right: 20px;
+        padding: 10px;
+        border:1px solid transparent ;
+        border-radius:8px;
+    }
+    .I:hover{
+        border-radius:8px;
+        background-color: transparent;
+        box-shadow: inset 3px 4px 20px 10px rgb(134, 152, 233);
+        border: 1px solid rgb(204, 199, 199);
+    }
+    .language,ul,li{
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    .language,p{
+        margin-top: 2px;
+    }
+    .language,a{
+        
+        display: flex;
+        justify-content: space-evenly;
+       
+        font-size: 14px;  
+        text-decoration: none;
+        
+    }
+    #aa{
+       
+        padding: 5px;
+        background-color: rgb(197, 197, 197);
+        border-radius: 50%;
+        margin-right: 10px;
+        margin-top: -6px;
+        width: 25px;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+
+       span{
+           display: flex;
+           
+       } 
+       span a{
+           color: #2b7de9;
+       }
+   
+    footer{
+        width: 100%;
+        margin-top: 10%;
+        position: fixed;
+        cursor: text;
+        text-align:flex-start;
+        font-size: 16px;
+        padding: 20px 40px;
+        background-color: rgb(221, 220, 220) ;
+        color: rgb(77, 75, 75) ;
+      
+
+    }
+   .div{
+        margin-bottom: 1px solid rgb(156, 46, 46);
+    }
+    .list1, .r1, .r2, .r3, .r4, .r5, .r6 {
+        display: flex;
+        background-color: rgb(221, 220, 220) ;
+        color: rgb(77, 75, 75) ;
+        font-size: 15px;
+       
+      
+    }
+
+    .r1, .r2, .r3 {
+     display: flex;
+     align-content: flex-start;
+
+    }
+    .r4, .r5, .r6{
+        display: flex;
+        align-content: flex-end;
+    }
+   
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul class="list">
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li><img id="aa" src="http://cdn.onlinewebfonts.com/svg/img_85449.png">    </li>
+            <button class="A"> Sign in</button>
+        </ul>
+    </header>
+
+    <main>
+
+        <div class="container">
+
+            <img src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                alt="google img" width="273px" height="auto">
+
+            <input type="text"><BR>
+            <button class="s">Google search</button>
+            <button class="I">I'm Feeling Lucky</button>
+        </div>
+        
+        <div class="language">
+           
+            <ul>
+                <li><p class="text">Google offered in:- &nbsp &nbsp &nbsp </p></li>
+                    <span>
+                   <li> <a href="#"> தமிழ்</a></li>
+                    
+                    <li><a href="#">हिन्दी</a></li>
+                    <li><a href="#">বাংলা</a></li>
+                    <li><a href="#">తెలుగు</a></li>
+                    <li><a href="#">मराठी</a></li>
+                </span>
+            </ul>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+    <div class="div">
+        <p id="h">India </p>
+    </div>
+    
+    <br>
+    <div class="list1">
+        <a class="r1" href="#">About</a>
+        <a class="r2" href="#">Advertisement</a>
+        <a class="r3"href="#">Bussiness</a>
+        <a class="r4" href="#" >Privacy</a>
+        <a class="r5"href="#" >Terms</a>
+        <a class="r6"href="#" >Setting</a>
+        
+    </div>
+    </footer>
+
+    <noscript>Your browser don't support JavaScript!</noscript>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
