@@ -6,464 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-
-    <title>Practise</title>
-</head>
-
-<body>
-    <header>
-        <nav id="main">
-            <div class="navLogo">
-                <p>ToolM5</p>
-            </div>
-            <div class="navLists">
-                <ul>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
-                </ul>
-            </div>
-            <div class="navIcon">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-            </div>
-            <div class="navBtn">
-                <button class="navBtnSet" type="submit">get started <i class="fa fa-chevron-circle-right"
-                        aria-hidden="true"></i></button>
-            </div>
-        </nav>
-    </header>
-    <div class="btn">
-        <button>
-
-            <a href="#main"><i class="fa-solid fa-circle-up"></i></a></button>
-    </div>
-    <main >
-        
-        <div class="mainContainer" >
-            <h3 class="h3tag">Create Your</h3>
-            <h1>T-Shirt Design</h1>
-            <button class="mainBtn">Get Started</button>
-            <br>
-            <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing
-                elit.</a>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Quae quas aliquid, fuga possimus dolorem deserunt quibusdam
-                dicta corrupti sit aliquam, quos, harum rem qui praesentium
-                quis dolorum assumenda veritatis esse.</p>
-        </div>
-
-        <hr class="firstOne">
-
-        <div class="features">
-
-            <div class="par">
-                <p>our features</p>
-            </div>
-        </div>
-
-    <div class="quantity">
-
-            <div class="icon1">
-
-                <div class="iconLeft">
-
-                    <i class="fa-solid fa-palette"></i>
-
-                </div>
-
-                <div class="iconRight">
-
-                    <h3>Unique Design</h3>
-                    <p>jul 13 2025</p>
-
-                </div>
-
-            </div>
-        
-
-                
-
-                    <div class="icon1">
-
-                        <div class="iconLeft">
-                            
-                            <i class="fa-solid fa-layer-group"></i>
-
-                        </div>
-
-                        <div class="iconRight">
-
-                            <h3>Quality Materials</h3>
-                            <p>jul 15 2025</p>
-
-                        </div>
-
-                    </div>
-                
-             
-
-                        
-
-                            <div class="icon1">
-
-                                <div class="iconLeft">
-                                    <i class="fa-solid fa-shirt"></i>
-
-                                </div>
-                                  
-                                <div class="iconRight">
-                                    <h3>High Print Quality</h3>
-                                    <p>jul 23 2025</p>
-                                </div>
-                           
-                            </div>
-                        
-
-                              
-                                    <div class="icon1">
-
-                                        <div class="iconLeft">
-                                            
-                                            <i class="fa-solid
-                                                    fa-face-smile"></i>
-
-                                        </div>
-
-                                        <div class="iconRight">
-                                            
-                                            <h3>Good Review</h3>
-                                            <p>jul 27 2025</p>
-
-                                        </div>
-                                    </div>
-                               
-     </div>  
-                      
-                      
-
-                  <hr class="thirdStart">     
-                  
-
-                  <div class="thirdContent">
-
-                    <div class="parThree">
-
-                        <p>how it works?</p>
-
-                    </div>
-                  </div>  
-                  <br>
-
-                    <div class="thirdContainerL">
-                        
-                        <div class="thirdContainerLeft">
-                            <img class="thirdImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpeg" alt="c">
-                            <p>unique T-Shirt</p>
-
-                            <div class="thirdBtns">
-
-                                <button class="thirdBtn1">buy for $59</button>
-                                <button class="thirdBtn2">view all<i class="fa fa-chevron-circle-right"
-                                    aria-hidden="true"></i></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="thirdContainerR">
-                        <div class="thirdContainerRight">
-                            <p class="thirdPar">unique t-Shirt design</p>
-                            <hr class="thirdUnderLine">
-                            <p class="thirdSecondPar">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, tempora aliquam labore distinctio repellat voluptate tenetur, ab dolorum itaque enim voluptatem similique minima non eum. 
-                                
-                                Eius sed est odio a.
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores reprehenderit, animi magni iste veritatis quaerat facilis beatae tempora obcaecati magnam error nisi vitae maxime aliquam voluptatum fuga accusamus dolorum adipisci!
-                            </p>              
-                            <p class="thirdSecondPar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque iste similique consectetur quae in blanditiis tenetur, suscipit porro explicabo repudiandae nostrum architecto illum nobis officia laboriosam minus fugiat sapiente incidunt.</p>
-                            <div class="thirdBtns">
-                                <button class="thirdBtn1">subscribe $79/q</button>
-                                <button class="thirdBtn2">more info <i class="fa fa-chevron-circle-right"
-                                    aria-hidden="true"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-                  
-                </div>
-
-                <hr class="thirdContentEnd" >
-
-                <div class="fourthContainer"id="about" >
-                  <div class="fourthleft">
-                    <h1>About us</h1>
-                  </div>
-                  
-                  <div class="fourthRight">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia explicabo placeat tempora corrupti magni suscipit at similique laudantium ducimus. Hic dolor assumenda tenetur aliquid eum consectetur, ipsum adipisci? Nobis, et!
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ab quasi consectetur temporibus soluta quia laboriosam doloribus neque, dolore necessitatibus dignissimos ea. Asperiores consequatur magni aperiam perferendis inventore laudantium rem!
-                    </p>
-                  </div>
-
-                </div>
-
-                <hr class="fifthStart">
-
-                <h1 class="fifthPar">Professional Tools</h1>
-
-                <div class="fifthContainer">
-                  <div class="fifthLeft">
-                    <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpg" alt="dress">
-                    <div class="fifthMin">
-                    <h2>Quality materials</h2>
-                    <h3>lorem lorem lorem</h3>      
-                  </div>  
-                  <hr class="hrc">     
-                    <p class="hoverEff">read more ></p>
-                
-                  </div>
-
-                  <div class="fifthLeft">
-                    <img class="fifthMiddleImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr-1.jpg" alt="dress">
-                    <div class="fifthMin">
-                    <h2>high print quality</h2>
-                    <h3>lorem lorem lorem</h3>
-                  </div>
-                  <hr class="hrc">
-                    <p class="hoverEff">read more ></p>
-                 
-                </div>
-                  <div class="fifthLeft">
-                    <img class="fifthRightImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpeg" alt="dress">
-                    <div class="fifthMin">
-                    <h2>Good Review</h2>
-                    <h3>lorem lorem lorem</h3>
-                    </div>
-                    <hr class="hrc">
-                    <p class="hoverEff">read more ></p>
-
-                  </div>
-                </div>
-                <hr class="fifthEnd">
-
-                <div class="sixthContainer" id="services">
-                    <h3>our shop</h3>
-                    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis eveniet similique, enim repellat fuga at eligendi autem voluptatibus sapiente facere iste qui vel veniam minima, labore molestias eaque ratione esse.</P>
-                </div>
-
-                <hr class="sixthEnd">
-
-                <div class="seventhContainer">
-                    <div class="seventhImage">
-                        <img class="seventhI"src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr-1.jpg" alt="img">
-                    </div>
-                    <div  class="seventhPar">
-                        <h1>t- shirt with Print</h1>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, tempora tenetur possimus quos ea doloribus aspernatur provident laborum? Repudiandae placeat inventore cumque delectus vero quasi ullam, necessitatibus eveniet amet ab.</p>
-                    </div>
-                    <div class="seventhValue">
-                        <h1>$29</h1>
-                        <button class="thirdBtn2">Buy now<i class="fa fa-chevron-circle-right"
-                            aria-hidden="true"></i></button>
-                    </div>
-                </div>
-                
-                <div class="seventhContainer">
-                    <div class="seventhImage">
-                        <img class="seventhI"src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpeg" alt="img">
-                    </div>
-                    <div  class="seventhPar">
-                        <h1>t- shirt with Print</h1>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, tempora tenetur possimus quos ea doloribus aspernatur provident laborum? Repudiandae placeat inventore cumque delectus vero quasi ullam, necessitatibus eveniet amet ab.</p>
-                    </div>
-                    <div class="seventhValue">
-                        <h1>$49</h1>
-                        <button class="thirdBtn2">Buy now<i class="fa fa-chevron-circle-right"
-                            aria-hidden="true"></i></button>
-                    </div>
-                </div>
-
-                <hr class="seventhEnd">
-
-                <div class="eightContent">
-                    <h1>Our team</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-
-                <hr class="eightEnd">
-
-                <!-- ninth start -->
-<div class="ninthCOntent">
-                <div class="fifthContainer">
-                  <div class="fifthLeft">
-                    <img class="fifthFirstImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/team1.jpg" alt="dress">
-                    <div class="fifthMin" id="ninthCont">
-                    <h2>lorem</h2>
-                    <h3>Manager</h3>   
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <button class="navBtnSet" type="submit">view profile <i class="fa fa-chevron-circle-right"
-                        aria-hidden="true"></i></button>   
-                  </div>  
-                  
-                    
-                
-                  </div>
-
-                  <div class="fifthLeft">
-                    <img class="fifthMiddleImg" id="fifthMiddleImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/team2.jpg" alt="dress">
-                    <div class="fifthMin" id="ninthCont">
-                    <h2>lorem</h2>
-                    <h3>designer</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <button class="navBtnSet" type="submit">view profile <i class="fa fa-chevron-circle-right"
-                        aria-hidden="true"></i></button>
-                  </div>
-                 
-                   
-                 
-                </div>
-                  <div class="fifthLeft">
-                    <img class="fifthRightImg" id="fifthRightImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/team3.jpg" alt="dress">
-                    <div class="fifthMin" id="ninthCont">
-                    <h2>lorem</h2>
-                    <h3>developer</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <button class="navBtnSet" type="submit">view profile <i class="fa fa-chevron-circle-right"
-                        aria-hidden="true"></i></button>
-                    </div>
-
-                  </div>
-                </div>
-            </div>
-                <hr class="ninthEnd">
-
-                <div class="tenthContainer">
-                    <h1>View in action</h1>
-                    <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr-2.jpeg" alt="img">
-                    <div class="icon">
-                        <a href="https://www.youtube.com/watch?v=5BQQM4uvRkw&list=RD5BQQM4uvRkw&start_radio=1&ab_channel=AdityaMusicTamil" traget="_parent"><i class="fa-solid fa-circle-play"></i></a>
-                    </div>
-                </div>
-
-                <hr class="tenthEnd">
-<!-- elevanth start -->
-                <div class="fifthContainer" id="elevanthContainer">
-                    <div class="fifthLeft">
-                      <img class="fifthFirstImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/1.png" alt="dress">
-                      <div class="fifthMin" id="ninthCont">
-                        <h2>Our Partner</h2>
-                       
-                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                      <button class="navBtnSet" type="submit">learn more</button>   
-                    </div>  
-                    
-                      
-                  
-                    </div>
-  
-                    <div class="fifthLeft">
-                      <img class="fifthMiddleImg" id="fifthMiddleImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/2.png" alt="dress">
-                      <div class="fifthMin" id="ninthCont">
-                      <h2>Our Partner</h2>
-                      
-                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                      <button class="navBtnSet" type="submit">learn more</button> 
-                    </div>
-                   
-                     
-                   
-                  </div>
-                    <div class="fifthLeft">
-                      <span class="elavanthRightImg" > <img class="fifthRightImg" id="fifthRightImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/3.png" alt="dress">
-                      <div class="fifthMin" id="ninthCont">
-
-                      </span>
-                    <h2>Our Partner</h2>
-                     
-                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                      <button class="navBtnSet" type="submit">learn more</button> 
-                      </div>
-  
-                    </div>
-                  </div>
-                  <!-- elevanth end -->
-                    <!-- twelth start -->
-                  <div class="seventhContainer" id="twelthContainer">
-                      <div  class="seventhPar">
-                          <p class="twelthpar" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, tempora tenetur possimus quos ea doloribus aspernatur provident laborum? Repudiandae placeat inventore cumque delectus vero quasi ullam, necessitatibus eveniet amet ab.</p>
-                          <h1 class="twelthHead1">lorem</h1>
-                          <h3 class="twelthHead2">Client</h3>
-                          <button class="thirdBtn2">read full review<i class="fa fa-chevron-circle-right"
-                            aria-hidden="true"></i></button>
-                        </div>
-                        
-                            <div class="seventhImage">
-                                <img class="seventhI" id="twelthImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr-1.jpg" alt="img">
-                            </div>
-                </div>
-                
-                <hr class="twelthEnd">
-                <!-- twelth end -->
-                
-                  <div class="thirteenthContent">
-                    <h1>contacts</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos autem quisquam repellendus asperiores, illo dolores, fugiat sequi rerum illum ipsa officiis reiciendis laboriosam perferendis fugit cupiditate accusantium reprehenderit vitae eligendi.</p>
-                  </div>
-                
-                  <hr class="thirteenEnd">
-
-                  <!-- thirteenEnd -->
-
-                  <!-- fourteen start -->
-                  <div class="fourteenStart" id="contacts">
-                    <div class="fourteenLeft">
-                        <i class="fa-solid fa-envelope"></i>
-                        <h1>email</h1>
-                        <p>we will replay as soon as possible</p>
-                        <a href="#">send us email</a>
-                    </div>
-                    <div class="fourteenRight">
-                        <i class="fa-solid fa-mobile"></i>
-                        <h1>phone</h1>
-                        <p>mon - fri 09:00 - 18:00</p>
-                        <a href="#">call us (+91) 12345 6789</a>
-                    </div>
-                  </div>
-<!-- fourteen end -->
-
-<!-- form -->
-<div class="form">
-    <h1>send message</h1>
-    <form action="submit">
-        <div class="name email">
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="E-mail">
-        </div>
-        <input type="text" placeholder="Your Website">
-        <br>
-        <textarea name="" id="" cols="95" rows="10" placeholder="Message"></textarea>
-        <br>    
-        <button class="navBtnSet" type="submit">send message</button>
-    </form>
-</div>
-                 
-
-    </main> 
-    <footer>
-        <p>© Copyright 2025 Mobirise - All Rights Reserved</p>
-
-    </footer>
-
-
-    <script src="scripts.js"></script>
-    <script src="https://kit.fontawesome.com/8c4c8ff5f3.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
-</body>
-
-</html>
-
-
-*{
+<style>
+    *{
     margin: 0;
     padding: 0;
     font-family: insert, sans-serif;
@@ -1358,3 +902,461 @@ footer{
    position: sticky;
   
 }
+
+</style>
+    <title>Practise</title>
+</head>
+
+<body>
+    <header>
+        <nav id="main">
+            <div class="navLogo">
+                <p>ToolM5</p>
+            </div>
+            <div class="navLists">
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="navIcon">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+            <div class="navBtn">
+                <button class="navBtnSet" type="submit">get started <i class="fa fa-chevron-circle-right"
+                        aria-hidden="true"></i></button>
+            </div>
+        </nav>
+    </header>
+    <div class="btn">
+        <button>
+
+            <a href="#main"><i class="fa-solid fa-circle-up"></i></a></button>
+    </div>
+    <main >
+        
+        <div class="mainContainer" >
+            <h3 class="h3tag">Create Your</h3>
+            <h1>T-Shirt Design</h1>
+            <button class="mainBtn">Get Started</button>
+            <br>
+            <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.</a>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quae quas aliquid, fuga possimus dolorem deserunt quibusdam
+                dicta corrupti sit aliquam, quos, harum rem qui praesentium
+                quis dolorum assumenda veritatis esse.</p>
+        </div>
+
+        <hr class="firstOne">
+
+        <div class="features">
+
+            <div class="par">
+                <p>our features</p>
+            </div>
+        </div>
+
+    <div class="quantity">
+
+            <div class="icon1">
+
+                <div class="iconLeft">
+
+                    <i class="fa-solid fa-palette"></i>
+
+                </div>
+
+                <div class="iconRight">
+
+                    <h3>Unique Design</h3>
+                    <p>jul 13 2025</p>
+
+                </div>
+
+            </div>
+        
+
+                
+
+                    <div class="icon1">
+
+                        <div class="iconLeft">
+                            
+                            <i class="fa-solid fa-layer-group"></i>
+
+                        </div>
+
+                        <div class="iconRight">
+
+                            <h3>Quality Materials</h3>
+                            <p>jul 15 2025</p>
+
+                        </div>
+
+                    </div>
+                
+             
+
+                        
+
+                            <div class="icon1">
+
+                                <div class="iconLeft">
+                                    <i class="fa-solid fa-shirt"></i>
+
+                                </div>
+                                  
+                                <div class="iconRight">
+                                    <h3>High Print Quality</h3>
+                                    <p>jul 23 2025</p>
+                                </div>
+                           
+                            </div>
+                        
+
+                              
+                                    <div class="icon1">
+
+                                        <div class="iconLeft">
+                                            
+                                            <i class="fa-solid
+                                                    fa-face-smile"></i>
+
+                                        </div>
+
+                                        <div class="iconRight">
+                                            
+                                            <h3>Good Review</h3>
+                                            <p>jul 27 2025</p>
+
+                                        </div>
+                                    </div>
+                               
+     </div>  
+                      
+                      
+
+                  <hr class="thirdStart">     
+                  
+
+                  <div class="thirdContent">
+
+                    <div class="parThree">
+
+                        <p>how it works?</p>
+
+                    </div>
+                  </div>  
+                  <br>
+
+                    <div class="thirdContainerL">
+                        
+                        <div class="thirdContainerLeft">
+                            <img class="thirdImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpeg" alt="c">
+                            <p>unique T-Shirt</p>
+
+                            <div class="thirdBtns">
+
+                                <button class="thirdBtn1">buy for $59</button>
+                                <button class="thirdBtn2">view all<i class="fa fa-chevron-circle-right"
+                                    aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="thirdContainerR">
+                        <div class="thirdContainerRight">
+                            <p class="thirdPar">unique t-Shirt design</p>
+                            <hr class="thirdUnderLine">
+                            <p class="thirdSecondPar">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, tempora aliquam labore distinctio repellat voluptate tenetur, ab dolorum itaque enim voluptatem similique minima non eum. 
+                                
+                                Eius sed est odio a.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores reprehenderit, animi magni iste veritatis quaerat facilis beatae tempora obcaecati magnam error nisi vitae maxime aliquam voluptatum fuga accusamus dolorum adipisci!
+                            </p>              
+                            <p class="thirdSecondPar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque iste similique consectetur quae in blanditiis tenetur, suscipit porro explicabo repudiandae nostrum architecto illum nobis officia laboriosam minus fugiat sapiente incidunt.</p>
+                            <div class="thirdBtns">
+                                <button class="thirdBtn1">subscribe $79/q</button>
+                                <button class="thirdBtn2">more info <i class="fa fa-chevron-circle-right"
+                                    aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  
+                </div>
+
+                <hr class="thirdContentEnd" >
+
+                <div class="fourthContainer"id="about" >
+                  <div class="fourthleft">
+                    <h1>About us</h1>
+                  </div>
+                  
+                  <div class="fourthRight">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia explicabo placeat tempora corrupti magni suscipit at similique laudantium ducimus. Hic dolor assumenda tenetur aliquid eum consectetur, ipsum adipisci? Nobis, et!
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ab quasi consectetur temporibus soluta quia laboriosam doloribus neque, dolore necessitatibus dignissimos ea. Asperiores consequatur magni aperiam perferendis inventore laudantium rem!
+                    </p>
+                  </div>
+
+                </div>
+
+                <hr class="fifthStart">
+
+                <h1 class="fifthPar">Professional Tools</h1>
+
+                <div class="fifthContainer">
+                  <div class="fifthLeft">
+                    <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpg" alt="dress">
+                    <div class="fifthMin">
+                    <h2>Quality materials</h2>
+                    <h3>lorem lorem lorem</h3>      
+                  </div>  
+                  <hr class="hrc">     
+                    <p class="hoverEff">read more ></p>
+                
+                  </div>
+
+                  <div class="fifthLeft">
+                    <img class="fifthMiddleImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr-1.jpg" alt="dress">
+                    <div class="fifthMin">
+                    <h2>high print quality</h2>
+                    <h3>lorem lorem lorem</h3>
+                  </div>
+                  <hr class="hrc">
+                    <p class="hoverEff">read more ></p>
+                 
+                </div>
+                  <div class="fifthLeft">
+                    <img class="fifthRightImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpeg" alt="dress">
+                    <div class="fifthMin">
+                    <h2>Good Review</h2>
+                    <h3>lorem lorem lorem</h3>
+                    </div>
+                    <hr class="hrc">
+                    <p class="hoverEff">read more ></p>
+
+                  </div>
+                </div>
+                <hr class="fifthEnd">
+
+                <div class="sixthContainer" id="services">
+                    <h3>our shop</h3>
+                    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis eveniet similique, enim repellat fuga at eligendi autem voluptatibus sapiente facere iste qui vel veniam minima, labore molestias eaque ratione esse.</P>
+                </div>
+
+                <hr class="sixthEnd">
+
+                <div class="seventhContainer">
+                    <div class="seventhImage">
+                        <img class="seventhI"src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr-1.jpg" alt="img">
+                    </div>
+                    <div  class="seventhPar">
+                        <h1>t- shirt with Print</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, tempora tenetur possimus quos ea doloribus aspernatur provident laborum? Repudiandae placeat inventore cumque delectus vero quasi ullam, necessitatibus eveniet amet ab.</p>
+                    </div>
+                    <div class="seventhValue">
+                        <h1>$29</h1>
+                        <button class="thirdBtn2">Buy now<i class="fa fa-chevron-circle-right"
+                            aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                
+                <div class="seventhContainer">
+                    <div class="seventhImage">
+                        <img class="seventhI"src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr.jpeg" alt="img">
+                    </div>
+                    <div  class="seventhPar">
+                        <h1>t- shirt with Print</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, tempora tenetur possimus quos ea doloribus aspernatur provident laborum? Repudiandae placeat inventore cumque delectus vero quasi ullam, necessitatibus eveniet amet ab.</p>
+                    </div>
+                    <div class="seventhValue">
+                        <h1>$49</h1>
+                        <button class="thirdBtn2">Buy now<i class="fa fa-chevron-circle-right"
+                            aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <hr class="seventhEnd">
+
+                <div class="eightContent">
+                    <h1>Our team</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <hr class="eightEnd">
+
+                <!-- ninth start -->
+<div class="ninthCOntent">
+                <div class="fifthContainer">
+                  <div class="fifthLeft">
+                    <img class="fifthFirstImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/team1.jpg" alt="dress">
+                    <div class="fifthMin" id="ninthCont">
+                    <h2>lorem</h2>
+                    <h3>Manager</h3>   
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="navBtnSet" type="submit">view profile <i class="fa fa-chevron-circle-right"
+                        aria-hidden="true"></i></button>   
+                  </div>  
+                  
+                    
+                
+                  </div>
+
+                  <div class="fifthLeft">
+                    <img class="fifthMiddleImg" id="fifthMiddleImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/team2.jpg" alt="dress">
+                    <div class="fifthMin" id="ninthCont">
+                    <h2>lorem</h2>
+                    <h3>designer</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="navBtnSet" type="submit">view profile <i class="fa fa-chevron-circle-right"
+                        aria-hidden="true"></i></button>
+                  </div>
+                 
+                   
+                 
+                </div>
+                  <div class="fifthLeft">
+                    <img class="fifthRightImg" id="fifthRightImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/team3.jpg" alt="dress">
+                    <div class="fifthMin" id="ninthCont">
+                    <h2>lorem</h2>
+                    <h3>developer</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="navBtnSet" type="submit">view profile <i class="fa fa-chevron-circle-right"
+                        aria-hidden="true"></i></button>
+                    </div>
+
+                  </div>
+                </div>
+            </div>
+                <hr class="ninthEnd">
+
+                <div class="tenthContainer">
+                    <h1>View in action</h1>
+                    <img src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr-2.jpeg" alt="img">
+                    <div class="icon">
+                        <a href="https://www.youtube.com/watch?v=5BQQM4uvRkw&list=RD5BQQM4uvRkw&start_radio=1&ab_channel=AdityaMusicTamil" traget="_parent"><i class="fa-solid fa-circle-play"></i></a>
+                    </div>
+                </div>
+
+                <hr class="tenthEnd">
+<!-- elevanth start -->
+                <div class="fifthContainer" id="elevanthContainer">
+                    <div class="fifthLeft">
+                      <img class="fifthFirstImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/1.png" alt="dress">
+                      <div class="fifthMin" id="ninthCont">
+                        <h2>Our Partner</h2>
+                       
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <button class="navBtnSet" type="submit">learn more</button>   
+                    </div>  
+                    
+                      
+                  
+                    </div>
+  
+                    <div class="fifthLeft">
+                      <img class="fifthMiddleImg" id="fifthMiddleImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/2.png" alt="dress">
+                      <div class="fifthMin" id="ninthCont">
+                      <h2>Our Partner</h2>
+                      
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <button class="navBtnSet" type="submit">learn more</button> 
+                    </div>
+                   
+                     
+                   
+                  </div>
+                    <div class="fifthLeft">
+                      <span class="elavanthRightImg" > <img class="fifthRightImg" id="fifthRightImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/3.png" alt="dress">
+                      <div class="fifthMin" id="ninthCont">
+
+                      </span>
+                    <h2>Our Partner</h2>
+                     
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <button class="navBtnSet" type="submit">learn more</button> 
+                      </div>
+  
+                    </div>
+                  </div>
+                  <!-- elevanth end -->
+                    <!-- twelth start -->
+                  <div class="seventhContainer" id="twelthContainer">
+                      <div  class="seventhPar">
+                          <p class="twelthpar" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, tempora tenetur possimus quos ea doloribus aspernatur provident laborum? Repudiandae placeat inventore cumque delectus vero quasi ullam, necessitatibus eveniet amet ab.</p>
+                          <h1 class="twelthHead1">lorem</h1>
+                          <h3 class="twelthHead2">Client</h3>
+                          <button class="thirdBtn2">read full review<i class="fa fa-chevron-circle-right"
+                            aria-hidden="true"></i></button>
+                        </div>
+                        
+                            <div class="seventhImage">
+                                <img class="seventhI" id="twelthImg" src="https://mobirise.com/extensions/toolm5/t-shirt-design/assets/images/mbr-1.jpg" alt="img">
+                            </div>
+                </div>
+                
+                <hr class="twelthEnd">
+                <!-- twelth end -->
+                
+                  <div class="thirteenthContent">
+                    <h1>contacts</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos autem quisquam repellendus asperiores, illo dolores, fugiat sequi rerum illum ipsa officiis reiciendis laboriosam perferendis fugit cupiditate accusantium reprehenderit vitae eligendi.</p>
+                  </div>
+                
+                  <hr class="thirteenEnd">
+
+                  <!-- thirteenEnd -->
+
+                  <!-- fourteen start -->
+                  <div class="fourteenStart" id="contacts">
+                    <div class="fourteenLeft">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h1>email</h1>
+                        <p>we will replay as soon as possible</p>
+                        <a href="#">send us email</a>
+                    </div>
+                    <div class="fourteenRight">
+                        <i class="fa-solid fa-mobile"></i>
+                        <h1>phone</h1>
+                        <p>mon - fri 09:00 - 18:00</p>
+                        <a href="#">call us (+91) 12345 6789</a>
+                    </div>
+                  </div>
+<!-- fourteen end -->
+
+<!-- form -->
+<div class="form">
+    <h1>send message</h1>
+    <form action="submit">
+        <div class="name email">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="E-mail">
+        </div>
+        <input type="text" placeholder="Your Website">
+        <br>
+        <textarea name="" id="" cols="95" rows="10" placeholder="Message"></textarea>
+        <br>    
+        <button class="navBtnSet" type="submit">send message</button>
+    </form>
+</div>
+                 
+
+    </main> 
+    <footer>
+        <p>© Copyright 2025 Mobirise - All Rights Reserved</p>
+
+    </footer>
+
+
+    <script src="scripts.js"></script>
+    <script src="https://kit.fontawesome.com/8c4c8ff5f3.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+</body>
+
+</html>
+
+
