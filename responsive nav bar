@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Fonts Pre Connect -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts Links (Roboto 400, 500 and 700 included) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+
+  <!-- CSS Files Links -->
+  <style>
+  /* universal skeleton set to 0  */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* color declaratiom  */
+:root {
+    --hovers: rgb(0, 0, 0);
+    --paddingcolor: rgb(85, 85, 85);
+    --textcolor: rgb(255, 255, 255);
+    --actives: rgb(4, 170, 109);
+    --focused: rgba(78, 218, 166, 0.781);
+}
+
+/* set border outline and margin to none for the header */
+header {
+    border: none;
+    outline: none;
+    margin: none;
+
+}
+
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header nav ul li {
+    transition: background 0.3s;
+    transition-delay: 0.2s;
+    padding: 20px 15px;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    background: var(--paddingcolor);
+
+}
+header nav ul li:hover {
+    background: var(--hovers);
+    transition:background 0.3s;
+    transition-delay: 0.1s;
+}
+
+  
+
+header nav ul li i {
+    color: var(--textcolor);
+    font-size: 25px;
+}
+
+
+
+header nav ul li:active {
+    background: var(--focused);
+    transition:background 0.5s;
+   
+}
+header nav ul li:focus {
+    background: var(--actives);
+   
+}
+
+header nav ul li:first-child{
+    background: var(--focused);
+}
+header nav ul li:first-child:focus{
+    background: var(--actives);
+}
+header nav ul li:first-child:hover{
+    background: var(--hovers);
+}
+#navBar li:visited {
+    background-color: yellow;
+  }
+  
+.menuBar {
+    display: none;
+}
+
+
+
+
+/* device  responsive  styles started */
+
+@media (min-width:53px) and (max-width:320px) {
+
+    header nav ul {
+
+        display: block;
+
+    }
+
+    header nav {
+        max-width: 20%;
+    }
+
+    header nav ul li {
+
+        padding: 10px;
+
+    }
+
+    header nav ul li i {
+        font-size: medium;
+    }
+
+    .menuBar {
+        float: right;
+        clear: both;
+        display: inline-block;
+        cursor: pointer;
+
+
+    }
+
+    .fa-bars {
+        margin-top: 25%;
+        font-size: 30px;
+        padding: 15px 10px;
+
+    }
+
+    .fa-times {
+        margin-top: 25%;
+        font-size: 30px;
+        padding: 15px 10px;
+
+    }
+
+    .toggled {
+        display: none;
+        animation-delay: 0.2s;
+        animation: trans 1s;
+    }
+
+    .active {
+        display: block;
+        opacity: 1;
+        animation-delay: 0.2s;
+        animation: trans 1s;
+    }
+
+    @keyframes trans {
+
+        from {
+            left: -100%;
+            opacity: 0;
+        }
+
+        to {
+            left: 0%;
+            opacity: 1;
+        }
+    }
+
+}
+
+@media (min-width:320.10px) and (max-width:425px) {
+    header nav ul {
+
+        display: block;
+
+    }
+
+    header nav {
+        max-width: 20%;
+    }
+
+    header nav ul li {
+
+        padding: 10px;
+
+    }
+
+    header nav ul li i {
+        font-size: medium;
+    }
+
+    .menuBar {
+        float: right;
+        clear: both;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        transition: 0.8s;
+        transition-delay: 0.5s;
+
+    }
+
+    .fa-bars {
+        margin-top: 25%;
+        font-size: 30px;
+        padding: 15px 10px;
+
+    }
+
+    .fa-times {
+        margin-top: 25%;
+        font-size: 30px;
+        padding: 15px 10px;
+
+    }
+
+    .toggled {
+        display: none;
+        animation-delay: 0.2s;
+        animation: trans 1s;
+    }
+
+    .active {
+        display: block;
+        opacity: 1;
+        animation-delay: 0.2s;
+        animation: trans 1s;
+    }
+
+    @keyframes trans {
+
+        from {
+            left: -100%;
+            opacity: 0;
+        }
+
+        to {
+            left: 0%;
+            opacity: 1;
+        }
+    }
+
+
+}
+
+@media (min-width:425.10px) and (max-width:768px) {
+    header nav ul {
+
+        display: flex;
+
+    }
+
+    header nav ul li i {
+        font-size: medium;
+    }
+}
+  </style>
+<!-- fontawsome link -->
+<link rel="stylesheet" href="https://kit.fontawesome.com/8c4c8ff5f3.css" crossorigin="anonymous">
+
+  <!-- Title -->
+  <title>Simple Page</title>
+</head>
+<body>
+  <!-- header section -->
+  <header>
+    <!-- menu icon toggle btn -->
+    <section class="menuBar">
+        <i class="fas fa-bars"></i>
+    </section>  
+<!-- nav bar section -->
+    <section class="active">
+
+      <nav class="toggled " >
+        <ul id="navBar">
+          <li tabindex="0"><i class="fa fa-home"></i></li>
+          <li tabindex="0"><i class="fa fa-search "></i></li>
+          <li tabindex="0"><i class="fa fa-envelope"></i></li>
+          <li tabindex="0"><i class="fa fa-globe"></i></li>
+          <li tabindex="0"><i class="fa fa-trash"></i></li>
+        </ul>
+        
+      </nav>
+    </section>
+    
+
+ 
+  </header>
+
+  <main>
+    
+  </main>
+
+  <footer>
+  
+  </footer>
+
+  <noscript>Your browser don't support JavaScript!</noscript>
+  <script>
+  // this es6 self execution function used for nav bar toggle menu apper and disapper
+(() => {
+    let toggling = document.getElementsByClassName('fa-bars')[0];
+    let toggledSection = document.querySelector('.toggled');
+    toggling.addEventListener('click', (e) => {
+        e.target.classList.toggle("fa-times");
+        toggledSection.classList.toggle('active');
+
+    })
+})();
+
+
+
+  </script>
+  <!-- font awsome script -->
+  <script src="https://kit.fontawesome.com/8c4c8ff5f3.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
